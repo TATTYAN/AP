@@ -17,18 +17,33 @@
         }
     ],
     "support": {
-        "issues": "http://cakephp.lighthouseapp.com/projects/42880-debug-kit/overview",
-        "forum": "http://ask.cakephp.org",
+        "issues": "https://github.com/cakephp/debug_kit/issues",
+        "forum": "http://stackoverflow.com/tags/cakephp",
         "irc": "irc://irc.freenode.org/cakephp",
         "source": "https://github.com/cakephp/debug_kit"
     },
     "require": {
-        "php": ">=5.3.0",
-        "composer/installers": "*"
+        "cakephp/cakephp": ">=3.1.0 <4.0",
+        "jdorn/sql-formatter": "~1.2"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2.x-dev"
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "dev-master",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DebugKit\\": "src",
+            "DebugKit\\Test\\Fixture\\": "tests\\Fixture"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests",
+            "DebugKit\\Test\\": "tests"
+        }
+    },
+    "suggest": {
+        "ext-sqlite": "DebugKit needs to store panel data in a database. SQLite is simple and easy to use."
+    },
+    "minimum-stability": "beta"
 }
