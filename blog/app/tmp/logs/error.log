@@ -1,0 +1,18 @@
+2016-02-21 08:32:05 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /blog2-master/blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog2-master\blog\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 08:32:23 Error: [MissingControllerException] Controller class LectureController could not be found.
+Exception Attributes: array (
+  'class' => 'LectureController',
+  'plugin' => NULL,
+)
+Request URL: /blog2-master/blog/lecture
+Stack Trace:
+#0 C:\xampp\htdocs\blog2-master\blog\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
