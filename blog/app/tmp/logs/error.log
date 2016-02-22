@@ -16,3 +16,21 @@ Request URL: /blog2-master/blog/lecture
 Stack Trace:
 #0 C:\xampp\htdocs\blog2-master\blog\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-02-22 05:43:51 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /a1/blog/Posts
+Stack Trace:
+#0 C:\xampp\htdocs\a1\blog\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-22 05:44:10 Error: [MissingControllerException] Controller class LectureController could not be found.
+Exception Attributes: array (
+  'class' => 'LectureController',
+  'plugin' => NULL,
+)
+Request URL: /a1/blog/Lecture
+Stack Trace:
+#0 C:\xampp\htdocs\a1\blog\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
