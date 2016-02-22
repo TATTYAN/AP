@@ -43,22 +43,23 @@ a img {
 }
 h1, h2, h3, h4 {
 	font-weight: normal;
+	margin-bottom:0.5em;
 }
 h1 {
 	background:#fff;
-	color: #DC143C;
-	font-size: 180%;
+	color: #003d4c;
+	font-size: 100%;
 }
 h2 {
 	background:#fff;
-	color: #222;
+	color: #e32;
 	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 175%;
+	font-size: 190%;
 }
 h3 {
 	color: #2c6877;
 	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 100%;
+	font-size: 165%;
 }
 h4 {
 	color: #993;
@@ -315,10 +316,10 @@ label {
 }
 input, textarea {
 	clear: both;
-	font-size: 100%;
+	font-size: 140%;
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	padding: 1%;
-	width:50%;
+	width:98%;
 }
 select {
 	clear: both;
